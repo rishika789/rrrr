@@ -1,0 +1,281 @@
+
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 40px;
+}
+
+#pageselection{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 30%;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-button{
+  float:left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  line-height:40px;
+  text-decoration: none;
+}
+.nav-button a{
+    color: black;
+   text-decoration: none; 
+  display:block;
+  
+  height: 100%;
+  font-size: 20px;
+}
+HTML{
+    
+    background-image: url('images/background.jpg');
+    background-size: contain;
+    transition: 2s ease all;
+    
+    
+}
+
+.photospace {
+    
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    
+
+}
+
+.myphoto {
+    height: 220px;
+    width: 220px;
+
+    border: 5px solid black;
+
+    border-radius: 55%;
+}
+
+.myphoto:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    
+}
+
+.about h3{
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Crimson Text';
+    font-family: Snell Roundhand, cursive;
+
+}
+
+
+
+.about p
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    
+  }
+   .column img{
+       border-radius: 10px;
+       transition: width 2s;
+       width: 300px;
+   }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.learning h2{
+    font-size: 4.5em;
+    text-align: center;
+    font-family: 'Crimson Text';
+}
+
+.boxes{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+
+
+.boxes .link{
+    position: relative;
+    background: #fff;
+    padding: 10px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 7px solid black;
+    
+  
+
+}
+
+.boxes .link h2{
+    font-size: 80px;
+    color: wheat;
+
+}
+
+.boxes .link h3{
+    font-size: 30px;
+    color: black;
+
+
+}
+.boxes .link p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.boxes .link:nth-child(1)
+{
+    background: linear-gradient(45deg,#64ffb7,black);
+}
+.boxes .link:nth-child(2)
+{
+    background: linear-gradient(45deg,#0363b7,black);
+}
+
+.boxes .link:nth-child(3)
+{
+    background: linear-gradient(45deg,#037eb7,black);
+}
+.boxes .link:nth-child(4)
+{
+    background: linear-gradient(45deg,#64e8ff,black);
+}
+
+
+    
+
+.social h1{
+    
+    font-size: 5em;
+    font-family: 'Crimson Text';
+    text-align: center;
+    
+    
+
+
+
+}
+
+.media{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.media a{
+    
+    height: 100px;
+    width: 100px;
+    background-color:#03b78a;
+    border-radius: 60px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 3px 8px 5px 5px;
+    
+}
+
+a:hover i{
+    transform: scale(3.8);
+}
+
+.contactme{
+    padding: 50px 0;
+}
+
+.contactme h1{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    margin: 50px auto;
+    
+}
+.contactform{
+    max-width: 500px;
+    padding: 0 10px;
+    margin: auto;
+    /*border: solid 20px yellow; gives a bordr to whole form*/
+    
+}
+
+.contactform-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 20px 40px;
+    transition: 0.8s;
+    background: white;
+    color: black;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    border: solid 10px yellow;/*border to contact me 4 spaces */
+    font-family: ;
+}
+
+textarea.contactform-text{
+    height: 150px;
+    border: solid 10px yellow;
+}
+.contactform-btn{
+    height: 50px;
+    width: 100px;
+    background:white;
+    color:black;
+    border-radius: 20px 20px;
+}
+
+.copyright h3{
+
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+
+}
+
